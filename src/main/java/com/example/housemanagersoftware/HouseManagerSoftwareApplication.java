@@ -26,18 +26,18 @@ public class HouseManagerSoftwareApplication {
 
 
         // People
-        Person krisi = new Person("Kristina", 16, false);
-        Person sasho = new Person("Alexander", 47, false);
-        Person valya = new Person("Valentina", 52, false);
-        Person ani = new Person("Anna", 21, false);
+        Person krisi = new Person("Kristina", 16, false, new Apartment());
+        Person sasho = new Person("Alexander", 47, false, new Apartment());
+        Person valya = new Person("Valentina", 52, false, new Apartment());
+        Person ani = new Person("Anna", 21, false, new Apartment());
         List inhabitantsStoyanovi = new ArrayList();
         inhabitantsStoyanovi.add(krisi);
         inhabitantsStoyanovi.add(sasho);
         inhabitantsStoyanovi.add(valya);
 
-        Person gogo = new Person("Georgi", 23, false);
-        Person toni = new Person("Teodor", 21, true);
-        Person mitko = new Person("Dimitar", 16, true);
+        Person gogo = new Person("Georgi", 23, false, new Apartment());
+        Person toni = new Person("Teodor", 21, true, new Apartment());
+        Person mitko = new Person("Dimitar", 16, true, new Apartment());
         List inhabitantsSlavovi = new ArrayList();
         inhabitantsSlavovi.add(toni);
         inhabitantsSlavovi.add(mitko);

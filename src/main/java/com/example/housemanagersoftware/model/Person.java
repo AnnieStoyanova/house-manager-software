@@ -30,11 +30,12 @@ public class Person {
     @ManyToOne
     private Apartment apartment;
 
-    public Person(String name, int age, boolean useElevator) {
+    public Person(String name, int age, boolean useElevator, Apartment apartment) {
         this.id = id++; // ?? see if it works
         this.name = name;
         this.age = age;
         this.useElevator = useElevator;
+        this.apartment = apartment;
     }
 
     public Person() {
